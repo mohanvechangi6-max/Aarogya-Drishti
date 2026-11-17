@@ -1,0 +1,181 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif-italic: "Playfair Display", Georgia, Cambria, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-canvas: #FBFBFA;
+  --color-surface: #FFFFFF;
+  --color-surface-mint: #ECFDF5;
+  --color-ink: #0F172A;
+  --color-ink-muted: #475569;
+  --color-teal-primary: #0D5C58;
+  --color-teal-deep: #164E63;
+  --color-mint-glow: #2DD4BF;
+  --color-mint-soft: #A7F3D0;
+  --color-mint-wash: #ECFDF5;
+  --color-saffron: #E07A2C;
+  --color-saffron-deep: #EA580C;
+  --color-navy-deep: #0A192F;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: #0F172A;
+    background-color: #FBFBFA;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.font-brand-serif {
+  font-family: var(--font-serif-italic);
+  font-style: italic;
+}
+
+/* Signature Gradients */
+.ad-grad-teal {
+  background: linear-gradient(135deg, #0D5C58 0%, #164E63 100%);
+}
+
+.ad-grad-saffron {
+  background: linear-gradient(135deg, #E07A2C 0%, #EA580C 100%);
+}
+
+.ad-grad-navy {
+  background: radial-gradient(120% 80% at 80% 0%, #134E4A 0%, #042F2E 55%, #0A192F 100%);
+}
+
+/* 56px x 56px Ivory Canvas Grid Overlay */
+.ad-grid-56 {
+  background-image:
+    linear-gradient(to right, rgba(13, 92, 88, 0.055) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(13, 92, 88, 0.055) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+
+/* 1px Subtle Grid Overlay inside Gradient Header Banners */
+.ad-banner-grid {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+/* Signature Card Shell & Glow Shadows */
+.ad-card {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  box-shadow: 0 12px 32px -12px rgba(13, 92, 88, 0.12), 0 4px 10px -2px rgba(15, 23, 42, 0.04);
+}
+
+.ad-btn-teal {
+  background: linear-gradient(135deg, #0D5C58 0%, #164E63 100%);
+  box-shadow: 0 8px 20px -6px rgba(13, 92, 88, 0.45);
+}
+
+.ad-btn-teal:hover {
+  filter: brightness(1.07);
+}
+
+.ad-btn-cyan {
+  background: linear-gradient(135deg, #06B6D4 0%, #0891B2 100%);
+  box-shadow: 0 8px 20px -6px rgba(8, 145, 178, 0.48);
+  transition:
+    transform 220ms ease,
+    filter 220ms ease,
+    box-shadow 220ms ease;
+}
+
+.ad-btn-cyan:hover {
+  filter: brightness(1.06);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px -8px rgba(8, 145, 178, 0.58);
+}
+
+.ad-btn-cyan:active {
+  transform: translateY(0) scale(0.98);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ad-btn-cyan {
+    transition: none;
+  }
+}
+
+@keyframes radar-sweep {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes gentle-pulse-ring {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.72;
+  }
+  70% {
+    transform: scale(1.25);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1.25);
+    opacity: 0;
+  }
+}
+
+@keyframes availability-dot-blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.25;
+  }
+}
+
+.ad-radar-sweep {
+  animation: radar-sweep 5.5s linear infinite;
+}
+
+.ad-ping-ring {
+  animation: gentle-pulse-ring 2.2s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+}
+
+.ad-status-dot-blink {
+  animation: availability-dot-blink 1.1s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ad-radar-sweep,
+  .ad-ping-ring,
+  .ad-status-dot-blink {
+    animation: none;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background-color: #ffffff !important;
+  }
+}

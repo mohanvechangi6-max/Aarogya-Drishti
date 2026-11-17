@@ -1,0 +1,12 @@
+{
+  "name": "Aarogya Drishti AP",
+  "description": "AI-assisted oral health preliminary screening, oral cancer risk awareness, hospital and verified specialist discovery, appointment booking, and secure WebRTC video consultations.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,2388 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_1",
+      "role": "admin",
+      "identifier": "admin@aarogyadrishti.org",
+      "name": "Platform Administrator",
+      "email": "admin@aarogyadrishti.org",
+      "passwordHash": "$2b$10$ScE9.E6RWuDNAaxDGDl0xOi3LWRpV9sDlMf.IKFeiXZ/6mJ7sNyay",
+      "active": true,
+      "mustChangePassword": false,
+      "createdAt": "2026-11-14T08:43:55.572Z",
+      "lastLoginAt": "2026-11-16T16:29:15.352Z"
+    },
+    {
+      "id": "usr_mgr_1",
+      "role": "hospital_manager",
+      "identifier": "HOSP-1001",
+      "name": "Suresh Menon (Mgr)",
+      "email": "manager@narayanaoral.org",
+      "passwordHash": "$2b$10$38ervT1wrluDS3.uDlKV9.QiXzvrc.HQ9gGKe7v..9uz/a9/SsWPG",
+      "hospitalId": "hosp_1",
+      "active": true,
+      "mustChangePassword": false,
+      "createdAt": "2026-11-14T08:43:55.572Z",
+      "lastLoginAt": "2026-11-16T15:37:14.329Z"
+    },
+    {
+      "id": "usr_mgr_2",
+      "role": "hospital_manager",
+      "identifier": "HOSP-1002",
+      "name": "Kavita Deshmukh (Mgr)",
+      "email": "manager@sahyadricare.org",
+      "passwordHash": "$2b$10$38ervT1wrluDS3.uDlKV9.QiXzvrc.HQ9gGKe7v..9uz/a9/SsWPG",
+      "hospitalId": "hosp_2",
+      "active": true,
+      "mustChangePassword": false,
+      "createdAt": "2026-11-14T08:43:55.572Z"
+    },
+    {
+      "id": "usr_mgr_3",
+      "role": "hospital_manager",
+      "identifier": "HOSP-1003",
+      "name": "Rajiv Malhotra (Mgr)",
+      "email": "manager@indraprasthaent.org",
+      "passwordHash": "$2b$10$38ervT1wrluDS3.uDlKV9.QiXzvrc.HQ9gGKe7v..9uz/a9/SsWPG",
+      "hospitalId": "hosp_3",
+      "active": true,
+      "mustChangePassword": false,
+      "createdAt": "2026-11-14T08:43:55.572Z"
+    },
+    {
+      "id": "usr_doc_1",
+      "role": "doctor",
+      "identifier": "DOC-2001",
+      "name": "Dr. Priya Sharma",
+      "email": "priya.sharma@narayanaoral.org",
+      "passwordHash": "$2b$10$D0BnRndT8YCHJmXEZl1edO8izRhsyB2RVhZ.gBL.y4V/SS/jE6dO.",
+      "hospitalId": "hosp_1",
+      "doctorId": "doc_1",
+      "active": true,
+      "mustChangePassword": false,
+      "createdAt": "2026-11-14T08:43:55.572Z",
+      "lastLoginAt": "2026-11-16T16:37:42.252Z"
+    },
+    {
+      "id": "usr_doc_2",
+      "role": "doctor",
+      "identifier": "DOC-2002",
+      "name": "Dr. Alok Kulkarni",
+      "email": "alok.kulkarni@narayanaoral.org",
+      "passwordHash": "$2b$10$D0BnRndT8YCHJmXEZl1edO8izRhsyB2RVhZ.gBL.y4V/SS/jE6dO.",
+      "hospitalId": "hosp_1",
+      "doctorId": "doc_2",
+      "active": true,
+      "mustChangePassword": false,
+      "createdAt": "2026-11-14T08:43:55.572Z"
+    },
+    {
+      "id": "usr_doc_3",
+      "role": "doctor",
+      "identifier": "DOC-2003",
+      "name": "Dr. Rohan Iyer",
+      "email": "rohan.iyer@sahyadricare.org",
+      "passwordHash": "$2b$10$D0BnRndT8YCHJmXEZl1edO8izRhsyB2RVhZ.gBL.y4V/SS/jE6dO.",
+      "hospitalId": "hosp_2",
+      "doctorId": "doc_3",
+      "active": true,
+      "mustChangePassword": false,
+      "createdAt": "2026-11-14T08:43:55.572Z"
+    },
+    {
+      "id": "usr_doc_4",
+      "role": "doctor",
+      "identifier": "DOC-2004",
+      "name": "Dr. Meera Nair",
+      "email": "meera.nair@indraprasthaent.org",
+      "passwordHash": "$2b$10$D0BnRndT8YCHJmXEZl1edO8izRhsyB2RVhZ.gBL.y4V/SS/jE6dO.",
+      "hospitalId": "hosp_3",
+      "doctorId": "doc_4",
+      "active": true,
+      "mustChangePassword": false,
+      "createdAt": "2026-11-14T08:43:55.572Z"
+    },
+    {
+      "id": "usr_pat_1794645852175_speln2",
+      "role": "patient",
+      "identifier": "9876501234",
+      "name": "Test Patient",
+      "mobile": "9876501234",
+      "patientId": "pat_1794645852175_vfuumv",
+      "active": true,
+      "mustChangePassword": false,
+      "createdAt": "2026-11-14T08:44:12.175Z",
+      "lastLoginAt": "2026-11-14T08:44:12.175Z"
+    },
+    {
+      "id": "usr_pat_1794646348676_yuwe20",
+      "role": "patient",
+      "identifier": "9876543210",
+      "name": "Patient (3210)",
+      "mobile": "9876543210",
+      "patientId": "pat_1794646348676_bmue1w",
+      "active": true,
+      "mustChangePassword": false,
+      "createdAt": "2026-11-14T08:52:28.676Z",
+      "lastLoginAt": "2026-11-14T08:52:28.676Z"
+    },
+    {
+      "id": "usr_pat_1794647565001_3a3l4t",
+      "role": "patient",
+      "identifier": "+919876500112",
+      "name": "Voice OTP Test Patient",
+      "mobile": "+919876500112",
+      "patientId": "pat_1794647565001_u9tsil",
+      "active": true,
+      "mustChangePassword": false,
+      "createdAt": "2026-11-14T09:12:45.001Z",
+      "lastLoginAt": "2026-11-14T09:12:45.001Z"
+    },
+    {
+      "id": "usr_pat_1794647629735_d3xgf0",
+      "role": "patient",
+      "identifier": "+919876500113",
+      "name": "Voice OTP Patient",
+      "mobile": "+919876500113",
+      "patientId": "pat_1794647629735_pefr84",
+      "active": true,
+      "mustChangePassword": false,
+      "createdAt": "2026-11-14T09:13:49.735Z",
+      "lastLoginAt": "2026-11-14T09:13:49.735Z"
+    },
+    {
+      "id": "usr_pat_1794647637681_frfza1",
+      "role": "patient",
+      "identifier": "+919876500114",
+      "name": "Patient (0114)",
+      "mobile": "+919876500114",
+      "patientId": "pat_1794647637681_pfdbat",
+      "active": true,
+      "mustChangePassword": false,
+      "createdAt": "2026-11-14T09:13:57.681Z",
+      "lastLoginAt": "2026-11-14T09:13:57.681Z"
+    },
+    {
+      "id": "usr_pat_1794647700647_w7b0bp",
+      "role": "patient",
+      "identifier": "+919876500115",
+      "name": "Patient (0115)",
+      "mobile": "+919876500115",
+      "patientId": "pat_1794647700647_my79pj",
+      "active": true,
+      "mustChangePassword": false,
+      "createdAt": "2026-11-14T09:15:00.647Z",
+      "lastLoginAt": "2026-11-14T09:15:00.647Z"
+    },
+    {
+      "id": "usr_pat_1794647769400_1zi3w4",
+      "role": "patient",
+      "identifier": "+919876500116",
+      "name": "Patient (0116)",
+      "mobile": "+919876500116",
+      "patientId": "pat_1794647769400_vvop26",
+      "active": true,
+      "mustChangePassword": false,
+      "createdAt": "2026-11-14T09:16:09.400Z",
+      "lastLoginAt": "2026-11-14T09:16:09.400Z"
+    },
+    {
+      "id": "usr_pat_1794677093286_h7nkny",
+      "role": "patient",
+      "identifier": "+919490484091",
+      "name": "MOHAN",
+      "mobile": "+919490484091",
+      "patientId": "pat_1794677093286_zy9pxp",
+      "active": true,
+      "mustChangePassword": false,
+      "createdAt": "2026-11-14T17:24:53.285Z",
+      "lastLoginAt": "2026-11-16T16:44:26.318Z"
+    },
+    {
+      "id": "usr_pat_1794811548401_0hq99r",
+      "role": "patient",
+      "identifier": "+919490484090",
+      "name": "nani",
+      "email": "nani@gmail.com",
+      "mobile": "+919490484090",
+      "patientId": "pat_1794811548401_zwxc4a",
+      "active": true,
+      "mustChangePassword": false,
+      "createdAt": "2026-11-16T06:45:48.401Z",
+      "lastLoginAt": "2026-11-16T06:45:48.401Z"
+    }
+  ],
+  "hospitals": [
+    {
+      "id": "hosp_1",
+      "hospitalCode": "HOSP-1001",
+      "name": "Bengaluru Oral & Head-Neck Centre",
+      "registrationNumber": "KA-BLR-MED-2018-4491",
+      "address": "42 Residency Road, Ashok Nagar",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "pincode": "560025",
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "phone": "+91 80 4120 7780",
+      "email": "care@narayanaoral.org",
+      "facilities": [
+        "Oral Pathology & Biopsy Suite",
+        "Digital Intraoral Imaging",
+        "Tele-Consultation Studio",
+        "24/7 Emergency ENT Triage"
+      ],
+      "services": [
+        "Oral Cancer Screening",
+        "Oral Medicine & Radiology",
+        "Head & Neck Surgical Oncology",
+        "Tobacco Cessation Counselling"
+      ],
+      "workingHours": "Mon–Sat: 08:30 AM – 07:30 PM",
+      "active": true,
+      "managerUserId": "usr_mgr_1",
+      "createdAt": "2026-11-14T08:43:55.572Z",
+      "updatedAt": "2026-11-14T08:43:55.572Z"
+    },
+    {
+      "id": "hosp_2",
+      "hospitalCode": "HOSP-1002",
+      "name": "Sahyadri Maxillofacial & Dental Institute",
+      "registrationNumber": "MH-MUM-REG-2020-8823",
+      "address": "18 Gokhale Road, Dadar West",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pincode": "400028",
+      "latitude": 19.0178,
+      "longitude": 72.8478,
+      "phone": "+91 22 2430 9912",
+      "email": "desk@sahyadricare.org",
+      "facilities": [
+        "Mucosal Diagnostics Lab",
+        "Video Consultation Wing",
+        "Maxillofacial Daycare OT"
+      ],
+      "services": [
+        "Precancerous Lesion Evaluation",
+        "Oral & Maxillofacial Surgery",
+        "Diagnostic Biopsy & Histopathology"
+      ],
+      "workingHours": "Mon–Sat: 09:00 AM – 06:30 PM",
+      "active": true,
+      "managerUserId": "usr_mgr_2",
+      "createdAt": "2026-11-14T08:43:55.572Z",
+      "updatedAt": "2026-11-14T08:43:55.572Z"
+    },
+    {
+      "id": "hosp_3",
+      "hospitalCode": "HOSP-1003",
+      "name": "Indraprastha ENT & Oral Oncology Clinic",
+      "registrationNumber": "DL-REG-2019-3109",
+      "address": "74 Ring Road, Lajpat Nagar IV",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "pincode": "110024",
+      "latitude": 28.5677,
+      "longitude": 77.2433,
+      "phone": "+91 11 4980 2210",
+      "email": "support@indraprasthaent.org",
+      "facilities": [
+        "Endoscopy & Oral Visualization",
+        "Histopathology Tie-up",
+        "Emergency Triage Desk"
+      ],
+      "services": [
+        "ENT & Neck Mass Evaluation",
+        "Oral Submucous Fibrosis Care",
+        "Video Follow-up Consultations"
+      ],
+      "workingHours": "Mon–Sat: 09:00 AM – 08:00 PM",
+      "active": true,
+      "managerUserId": "usr_mgr_3",
+      "createdAt": "2026-11-14T08:43:55.572Z",
+      "updatedAt": "2026-11-14T08:43:55.572Z"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "doc_1",
+      "doctorCode": "DOC-2001",
+      "userId": "usr_doc_1",
+      "hospitalId": "hosp_1",
+      "fullName": "Dr. Priya Sharma",
+      "phone": "+91 98450 11223",
+      "email": "priya.sharma@narayanaoral.org",
+      "qualifications": "BDS, MDS (Oral Medicine & Radiology)",
+      "registrationNumber": "KDC-19482-A",
+      "specialization": "Oral Medicine & Precancerous Lesions",
+      "yearsOfExperience": 11,
+      "previousHospitals": "St. John’s Medical College, Manipal Dental Hospital",
+      "previousWorkDetails": "Led community oral mucosal screening camps across Karnataka and managed leukoplakia/OSMF clinics.",
+      "achievements": "Fellow, Indian Academy of Oral Medicine & Radiology (2022)",
+      "areasOfExpertise": [
+        "White & Red Mucosal Patches",
+        "Oral Submucous Fibrosis",
+        "Non-healing Oral Ulcers",
+        "Biopsy Triage"
+      ],
+      "consultationFee": 600,
+      "onlineConsultationAvailable": true,
+      "inPersonConsultationAvailable": true,
+      "workingStatus": "available",
+      "verificationStatus": "verified",
+      "verificationNotes": "Registration KDC-19482-A and MDS certificate verified by Hospital Manager.",
+      "documents": [
+        {
+          "id": "ddoc_1",
+          "label": "State Dental Council Registration",
+          "fileName": "KDC_Registration_19482.pdf",
+          "mimeType": "application/pdf",
+          "filePath": "",
+          "uploadedAt": "2026-11-14T08:43:55.572Z",
+          "verified": true
+        }
+      ],
+      "schedule": [
+        {
+          "day": "Monday",
+          "startTime": "09:30",
+          "endTime": "13:00",
+          "slotDurationMinutes": 30,
+          "enabled": true
+        },
+        {
+          "day": "Tuesday",
+          "startTime": "09:30",
+          "endTime": "13:00",
+          "slotDurationMinutes": 45,
+          "enabled": true
+        },
+        {
+          "day": "Wednesday",
+          "startTime": "14:00",
+          "endTime": "17:30",
+          "slotDurationMinutes": 30,
+          "enabled": true
+        },
+        {
+          "day": "Thursday",
+          "startTime": "09:30",
+          "endTime": "13:00",
+          "slotDurationMinutes": 45,
+          "enabled": true
+        },
+        {
+          "day": "Friday",
+          "startTime": "10:00",
+          "endTime": "14:00",
+          "slotDurationMinutes": 45,
+          "enabled": true
+        },
+        {
+          "day": "Saturday",
+          "startTime": "10:00",
+          "endTime": "13:00",
+          "slotDurationMinutes": 30,
+          "enabled": true
+        },
+        {
+          "day": "Sunday",
+          "startTime": "10:00",
+          "endTime": "12:00",
+          "slotDurationMinutes": 30,
+          "enabled": false
+        }
+      ],
+      "active": true,
+      "createdAt": "2026-11-14T08:43:55.572Z",
+      "updatedAt": "2026-11-14T18:09:56.466Z"
+    },
+    {
+      "id": "doc_2",
+      "doctorCode": "DOC-2002",
+      "userId": "usr_doc_2",
+      "hospitalId": "hosp_1",
+      "fullName": "Dr. Alok Kulkarni",
+      "phone": "+91 98450 99812",
+      "email": "alok.kulkarni@narayanaoral.org",
+      "qualifications": "MBBS, MS (ENT), MCh (Head & Neck Oncology)",
+      "registrationNumber": "KMC-54821",
+      "specialization": "Head & Neck Surgical Oncology",
+      "yearsOfExperience": 18,
+      "previousHospitals": "Kidwai Memorial Institute of Oncology",
+      "previousWorkDetails": "18 years specializing in diagnostic staging, tongue/buccal lesion excision, and reconstructive care.",
+      "achievements": "Published 34 peer-reviewed studies in early oral lesion detection.",
+      "areasOfExpertise": [
+        "Urgent Lesion Evaluation",
+        "Neck Swelling & Dysphagia",
+        "Diagnostic Biopsy & Staging"
+      ],
+      "consultationFee": 1000,
+      "onlineConsultationAvailable": true,
+      "inPersonConsultationAvailable": true,
+      "workingStatus": "available",
+      "verificationStatus": "verified",
+      "verificationNotes": "KMC-54821 and MCh Oncology credentials verified.",
+      "documents": [
+        {
+          "id": "ddoc_2",
+          "label": "Medical Council Registration",
+          "fileName": "KMC_54821_Cert.pdf",
+          "mimeType": "application/pdf",
+          "filePath": "",
+          "uploadedAt": "2026-11-14T08:43:55.572Z",
+          "verified": true
+        }
+      ],
+      "schedule": [
+        {
+          "day": "Monday",
+          "startTime": "09:30",
+          "endTime": "13:00",
+          "slotDurationMinutes": 30,
+          "enabled": true
+        },
+        {
+          "day": "Tuesday",
+          "startTime": "09:30",
+          "endTime": "13:00",
+          "slotDurationMinutes": 30,
+          "enabled": true
+        },
+        {
+          "day": "Wednesday",
+          "startTime": "14:00",
+          "endTime": "17:30",
+          "slotDurationMinutes": 30,
+          "enabled": true
+        },
+        {
+          "day": "Thursday",
+          "startTime": "09:30",
+          "endTime": "13:00",
+          "slotDurationMinutes": 30,
+          "enabled": true
+        },
+        {
+          "day": "Friday",
+          "startTime": "10:00",
+          "endTime": "14:00",
+          "slotDurationMinutes": 30,
+          "enabled": true
+        },
+        {
+          "day": "Saturday",
+          "startTime": "10:00",
+          "endTime": "13:00",
+          "slotDurationMinutes": 30,
+          "enabled": true
+        },
+        {
+          "day": "Sunday",
+          "startTime": "10:00",
+          "endTime": "12:00",
+          "slotDurationMinutes": 30,
+          "enabled": false
+        }
+      ],
+      "active": true,
+      "createdAt": "2026-11-14T08:43:55.572Z",
+      "updatedAt": "2026-11-14T08:43:55.572Z"
+    },
+    {
+      "id": "doc_3",
+      "doctorCode": "DOC-2003",
+      "userId": "usr_doc_3",
+      "hospitalId": "hosp_2",
+      "fullName": "Dr. Rohan Iyer",
+      "phone": "+91 98201 44510",
+      "email": "rohan.iyer@sahyadricare.org",
+      "qualifications": "BDS, MDS (Oral & Maxillofacial Surgery)",
+      "registrationNumber": "MSDC-33109",
+      "specialization": "Oral & Maxillofacial Surgery",
+      "yearsOfExperience": 8,
+      "previousHospitals": "KEM Hospital Mumbai",
+      "previousWorkDetails": "Managed trauma, jaw cysts, mucosal biopsies, and tobacco-associated oral lesion follow-ups.",
+      "achievements": "Best Clinical Paper Award, AOMSI 2023",
+      "areasOfExpertise": [
+        "Incisional & Excisional Biopsy",
+        "Persistent Oral Ulcers",
+        "Trismus & Jaw Pain"
+      ],
+      "consultationFee": 700,
+      "onlineConsultationAvailable": true,
+      "inPersonConsultationAvailable": true,
+      "workingStatus": "available",
+      "verificationStatus": "verified",
+      "verificationNotes": "MSDC-33109 verified.",
+      "documents": [],
+      "schedule": [
+        {
+          "day": "Monday",
+          "startTime": "09:30",
+          "endTime": "13:00",
+          "slotDurationMinutes": 30,
+          "enabled": true
+        },
+        {
+          "day": "Tuesday",
+          "startTime": "09:30",
+          "endTime": "13:00",
+          "slotDurationMinutes": 30,
+          "enabled": true
+        },
+        {
+          "day": "Wednesday",
+          "startTime": "14:00",
+          "endTime": "17:30",
+          "slotDurationMinutes": 30,
+          "enabled": true
+        },
+        {
+          "day": "Thursday",
+          "startTime": "09:30",
+          "endTime": "13:00",
+          "slotDurationMinutes": 30,
+          "enabled": true
+        },
+        {
+          "day": "Friday",
+          "startTime": "10:00",
+          "endTime": "14:00",
+          "slotDurationMinutes": 30,
+          "enabled": true
+        },
+        {
+          "day": "Saturday",
+          "startTime": "10:00",
+          "endTime": "13:00",
+          "slotDurationMinutes": 30,
+          "enabled": true
+        },
+        {
+          "day": "Sunday",
+          "startTime": "10:00",
+          "endTime": "12:00",
+          "slotDurationMinutes": 30,
+          "enabled": false
+        }
+      ],
+      "active": true,
+      "createdAt": "2026-11-14T08:43:55.572Z",
+      "updatedAt": "2026-11-14T08:43:55.572Z"
+    },
+    {
+      "id": "doc_4",
+      "doctorCode": "DOC-2004",
+      "userId": "usr_doc_4",
+      "hospitalId": "hosp_3",
+      "fullName": "Dr. Meera Nair",
+      "phone": "+91 98110 77341",
+      "email": "meera.nair@indraprasthaent.org",
+      "qualifications": "MBBS, DNB (ENT & Head-Neck)",
+      "registrationNumber": "DMC-71029",
+      "specialization": "ENT & Oral Cavity Evaluation",
+      "yearsOfExperience": 10,
+      "previousHospitals": "Safdarjung Hospital New Delhi",
+      "previousWorkDetails": "Evaluates voice changes, dysphagia, tonsillar/oropharyngeal lesions, and urgent ENT referrals.",
+      "achievements": "Lead Coordinator, Delhi Tobacco Screening Initiative",
+      "areasOfExpertise": [
+        "Voice Change & Dysphagia",
+        "Oropharyngeal Screening",
+        "Urgent ENT Tele-Triage"
+      ],
+      "consultationFee": 650,
+      "onlineConsultationAvailable": true,
+      "inPersonConsultationAvailable": true,
+      "workingStatus": "available",
+      "verificationStatus": "pending",
+      "verificationNotes": "Awaiting Hospital Manager final verification of experience certificate.",
+      "documents": [],
+      "schedule": [
+        {
+          "day": "Monday",
+          "startTime": "09:30",
+          "endTime": "13:00",
+          "slotDurationMinutes": 30,
+          "enabled": true
+        },
+        {
+          "day": "Tuesday",
+          "startTime": "09:30",
+          "endTime": "13:00",
+          "slotDurationMinutes": 30,
+          "enabled": true
+        },
+        {
+          "day": "Wednesday",
+          "startTime": "14:00",
+          "endTime": "17:30",
+          "slotDurationMinutes": 30,
+          "enabled": true
+        },
+        {
+          "day": "Thursday",
+          "startTime": "09:30",
+          "endTime": "13:00",
+          "slotDurationMinutes": 30,
+          "enabled": true
+        },
+        {
+          "day": "Friday",
+          "startTime": "10:00",
+          "endTime": "14:00",
+          "slotDurationMinutes": 30,
+          "enabled": true
+        },
+        {
+          "day": "Saturday",
+          "startTime": "10:00",
+          "endTime": "13:00",
+          "slotDurationMinutes": 30,
+          "enabled": true
+        },
+        {
+          "day": "Sunday",
+          "startTime": "10:00",
+          "endTime": "12:00",
+          "slotDurationMinutes": 30,
+          "enabled": false
+        }
+      ],
+      "active": true,
+      "createdAt": "2026-11-14T08:43:55.572Z",
+      "updatedAt": "2026-11-14T08:43:55.572Z"
+    }
+  ],
+  "patients": [
+    {
+      "id": "pat_1794645852175_vfuumv",
+      "userId": "usr_pat_1794645852175_speln2",
+      "fullName": "Test Patient",
+      "mobile": "9876501234",
+      "createdAt": "2026-11-14T08:44:12.175Z",
+      "updatedAt": "2026-11-14T08:44:12.175Z"
+    },
+    {
+      "id": "pat_1794646348676_bmue1w",
+      "userId": "usr_pat_1794646348676_yuwe20",
+      "fullName": "Patient (3210)",
+      "mobile": "9876543210",
+      "createdAt": "2026-11-14T08:52:28.676Z",
+      "updatedAt": "2026-11-14T08:52:28.676Z"
+    },
+    {
+      "id": "pat_1794647565001_u9tsil",
+      "userId": "usr_pat_1794647565001_3a3l4t",
+      "fullName": "Voice OTP Test Patient",
+      "mobile": "+919876500112",
+      "createdAt": "2026-11-14T09:12:45.001Z",
+      "updatedAt": "2026-11-14T09:12:45.001Z"
+    },
+    {
+      "id": "pat_1794647629735_pefr84",
+      "userId": "usr_pat_1794647629735_d3xgf0",
+      "fullName": "Voice OTP Patient",
+      "mobile": "+919876500113",
+      "createdAt": "2026-11-14T09:13:49.735Z",
+      "updatedAt": "2026-11-14T09:13:49.735Z"
+    },
+    {
+      "id": "pat_1794647637681_pfdbat",
+      "userId": "usr_pat_1794647637681_frfza1",
+      "fullName": "Patient (0114)",
+      "mobile": "+919876500114",
+      "createdAt": "2026-11-14T09:13:57.681Z",
+      "updatedAt": "2026-11-14T09:13:57.681Z"
+    },
+    {
+      "id": "pat_1794647700647_my79pj",
+      "userId": "usr_pat_1794647700647_w7b0bp",
+      "fullName": "Patient (0115)",
+      "mobile": "+919876500115",
+      "createdAt": "2026-11-14T09:15:00.647Z",
+      "updatedAt": "2026-11-14T09:15:00.647Z"
+    },
+    {
+      "id": "pat_1794647769400_vvop26",
+      "userId": "usr_pat_1794647769400_1zi3w4",
+      "fullName": "Patient (0116)",
+      "mobile": "+919876500116",
+      "createdAt": "2026-11-14T09:16:09.400Z",
+      "updatedAt": "2026-11-14T09:16:09.400Z"
+    },
+    {
+      "id": "pat_1794677093286_zy9pxp",
+      "userId": "usr_pat_1794677093286_h7nkny",
+      "fullName": "MOHAN",
+      "mobile": "+919490484091",
+      "createdAt": "2026-11-14T17:24:53.285Z",
+      "updatedAt": "2026-11-16T16:44:26.318Z",
+      "consentGivenAt": "2026-11-14T18:29:58.241Z",
+      "age": 25,
+      "city": "CHINTHAPALLI",
+      "village": "araku",
+      "ashaFollowupConsent": true,
+      "medicalHistory": "mouth cancer",
+      "emergencyContact": "9490484091",
+      "gender": "male"
+    },
+    {
+      "id": "pat_1794811548401_zwxc4a",
+      "userId": "usr_pat_1794811548401_0hq99r",
+      "fullName": "nani",
+      "mobile": "+919490484090",
+      "email": "nani@gmail.com",
+      "age": 26,
+      "dateOfBirth": "2000-01-20",
+      "ageCategory": "adults",
+      "gender": "male",
+      "bloodGroup": "A+",
+      "address": "araku valley",
+      "state": "ap",
+      "district": "ASR",
+      "mandal": "araku valley",
+      "city": "Baski",
+      "village": "Baski",
+      "pincode": "531149",
+      "aadhaarNumberEncrypted": "v1:pWTaRChFClYR4qBB:q25N/FNT+2HwqDqn1ou80g==:PFyKijexN5ok9++B",
+      "aadhaarCardPhotoEncrypted": "v1:unM/rnShqr/ctKxD:z2MBYVoa4VTuMB7ksyZrmA==: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",
+      "aadhaarConsentGivenAt": "2026-11-16T06:45:48.401Z",
+      "createdAt": "2026-11-16T06:45:48.401Z",
+      "updatedAt": "2026-11-16T07:36:26.766Z",
+      "ashaFollowupConsent": true
+    }
+  ],
+  "screenings": [
+    {
+      "id": "scr_1794728905762_3yrcyl",
+      "reportCode": "SCR-2026-0003",
+      "patientId": "pat_1794677093286_zy9pxp",
+      "consentAccepted": true,
+      "consentTimestamp": "2026-11-15T07:48:25.762Z",
+      "questionnaire": {
+        "gender": "prefer_not_to_say",
+        "generalLocation": "",
+        "previousOralProblems": "",
+        "usesTobacco": "no",
+        "tobaccoTypes": [],
+        "tobaccoFrequencyDuration": "",
+        "consumesAlcohol": "no",
+        "alcoholFrequencyDuration": "",
+        "chewsBetelOrArecaNut": "no",
+        "betelFrequencyDuration": "",
+        "symptoms": {
+          "whitePatches": false,
+          "redPatches": false,
+          "nonHealingUlcers": false,
+          "unusualGrowthsOrLumps": false,
+          "difficultyOpeningMouth": false,
+          "difficultySwallowing": false,
+          "painWhileChewing": false,
+          "bleedingInsideMouth": false,
+          "persistentPainOrNumbness": false,
+          "voiceChangeOrNeckSwelling": false
+        },
+        "symptomDuration": "Less than one week",
+        "otherSymptomsDescription": "",
+        "severeOrRapidlyWorsening": true
+      },
+      "images": [
+        {
+          "id": "img_1794728905762_twwy9z",
+          "oralRegion": "Tongue",
+          "fileName": "ORAL1.jpg",
+          "mimeType": "image/jpeg",
+          "fileSize": 229456,
+          "storagePath": "C:\\Users\\YTC CHINTAPALLI\\Downloads\\aarogya-drishti-ap\\.data\\uploads\\screenings\\c00067d7a5d1584f73065a42be662407",
+          "uploadedAt": "2026-11-15T07:48:25.762Z"
+        }
+      ],
+      "status": "analyzed",
+      "createdAt": "2026-11-15T07:48:25.762Z",
+      "updatedAt": "2026-11-15T07:48:36.222Z",
+      "aiReport": {
+        "imageQuality": "adequate",
+        "imageQualityReason": "The photograph is well-lit and sharply focused, providing a clear view of the right lateral border of the tongue.",
+        "observedVisibleFeatures": [
+          "Well-demarcated, thickened white plaque with an irregular, corrugated surface texture on the right lateral border of the tongue",
+          "Subtle pinkish-red areas visible within and along the edges of the white patch"
+        ],
+        "reportedOralRegion": "Tongue",
+        "preliminaryRiskCategory": "Urgent Clinical Evaluation Recommended",
+        "riskExplanation": "Although no tobacco, alcohol, or betel nut use was reported and the lesion duration is noted as less than one week, the photograph shows a distinct thickened white patch on the side of the tongue alongside your report of severe or rapidly worsening symptoms. Rapidly changing oral lesions on the lateral tongue require prompt in-person evaluation by a specialist to determine the underlying cause.",
+        "patientReportedSymptomsSummary": "Symptom duration reported as less than one week, with severe or rapidly worsening symptoms indicated; no additional symptom details were provided.",
+        "lifestyleRiskFactorsSummary": "No history of tobacco use, alcohol consumption, or betel nut/areca nut chewing reported.",
+        "recommendedNextSteps": [
+          "Schedule an urgent in-person appointment with a dentist, oral medicine specialist, or ENT doctor within the next 24 to 48 hours",
+          "Seek immediate emergency medical care if you develop difficulty breathing, inability to swallow, severe bleeding, or rapidly spreading swelling",
+          "Discuss with the examining clinician whether diagnostic tests, such as a tissue biopsy, are appropriate",
+          "Avoid scraping, biting, or applying unprescribed home treatments to the white patch before evaluation"
+        ],
+        "urgencyOfAssessment": "Urgent clinical evaluation recommended promptly (within 24 to 48 hours, or immediately if airway, swallowing, or severe pain/bleeding issues occur).",
+        "uncertaintyAndLimitations": "This preliminary screening relies only on a photograph and self-reported information and cannot diagnose any condition. A photograph cannot assess tissue texture beneath the surface or microscopic cell changes. Only a qualified clinician performing an in-person oral examination—and a biopsy if indicated—can provide a definitive diagnosis.",
+        "emergencyGuidanceRequired": true,
+        "modelUsed": "gemini-4-hydrogen",
+        "generatedAt": "2026-11-15T07:48:36.222Z"
+      }
+    },
+    {
+      "id": "scr_1794681638808_d24uqd",
+      "reportCode": "SCR-2026-0002",
+      "patientId": "pat_1794677093286_zy9pxp",
+      "consentAccepted": true,
+      "consentTimestamp": "2026-11-14T18:40:38.808Z",
+      "questionnaire": {
+        "age": 29,
+        "gender": "male",
+        "generalLocation": "ARAKU",
+        "previousOralProblems": "NONE",
+        "usesTobacco": "yes",
+        "tobaccoTypes": [
+          "Cigarettes"
+        ],
+        "tobaccoFrequencyDuration": "",
+        "consumesAlcohol": "no",
+        "alcoholFrequencyDuration": "",
+        "chewsBetelOrArecaNut": "no",
+        "betelFrequencyDuration": "",
+        "symptoms": {
+          "whitePatches": true,
+          "redPatches": false,
+          "nonHealingUlcers": false,
+          "unusualGrowthsOrLumps": false,
+          "difficultyOpeningMouth": false,
+          "difficultySwallowing": false,
+          "painWhileChewing": false,
+          "bleedingInsideMouth": false,
+          "persistentPainOrNumbness": false,
+          "voiceChangeOrNeckSwelling": false
+        },
+        "symptomDuration": "Less than one week",
+        "otherSymptomsDescription": "",
+        "severeOrRapidlyWorsening": true
+      },
+      "images": [
+        {
+          "id": "img_1794681638808_lp01jt",
+          "oralRegion": "Tongue",
+          "fileName": "ORAL1.jpg",
+          "mimeType": "image/jpeg",
+          "fileSize": 229456,
+          "storagePath": "C:\\Users\\YTC CHINTAPALLI\\Downloads\\aarogya-drishti-ap\\.data\\uploads\\screenings\\090c1c4deedb472d12a3a16c28000f55",
+          "uploadedAt": "2026-11-14T18:40:38.808Z"
+        },
+        {
+          "id": "img_1794681638808_tqs3lu",
+          "oralRegion": "Tongue",
+          "fileName": "ORAL1.jpg",
+          "mimeType": "image/jpeg",
+          "fileSize": 229456,
+          "storagePath": "C:\\Users\\YTC CHINTAPALLI\\Downloads\\aarogya-drishti-ap\\.data\\uploads\\screenings\\18ac399cb263a3c7c7ac57bbd8451982",
+          "uploadedAt": "2026-11-14T18:40:38.808Z"
+        },
+        {
+          "id": "img_1794681638808_5yv8r8",
+          "oralRegion": "Tongue",
+          "fileName": "oral_capture_1794681628816.jpg",
+          "mimeType": "image/jpeg",
+          "fileSize": 70613,
+          "storagePath": "C:\\Users\\YTC CHINTAPALLI\\Downloads\\aarogya-drishti-ap\\.data\\uploads\\screenings\\5531e82a094b271d849a5f7a6e3bb844",
+          "uploadedAt": "2026-11-14T18:40:38.808Z"
+        }
+      ],
+      "status": "reviewed_by_doctor",
+      "createdAt": "2026-11-14T18:40:38.808Z",
+      "updatedAt": "2026-11-14T18:50:53.445Z",
+      "aiReport": {
+        "imageQuality": "adequate",
+        "imageQualityReason": "Two of the submitted photographs have bright lighting and sharp focus clearly showing the right lateral border of the tongue, while the third photograph is too dark, out of focus, and does not clearly show the affected area.",
+        "observedVisibleFeatures": [
+          "Well-demarcated, raised, textured white plaque on the right lateral border of the tongue",
+          "Mild redness along the immediate border of the white patch with otherwise pink surrounding tongue mucosa",
+          "Third photograph shows a dimly lit, poorly focused oral cavity without a clearly visible lesion"
+        ],
+        "reportedOralRegion": "Tongue",
+        "preliminaryRiskCategory": "Urgent Clinical Evaluation Recommended",
+        "riskExplanation": "The clear close-up images show a prominent, thickened white patch on the side of the tongue, which is a sensitive oral site that requires careful medical attention. Given your report of severe or rapidly worsening symptoms alongside cigarette smoking, an urgent in-person examination by a qualified dental, oral medicine, or ENT specialist is needed to evaluate the lesion properly.",
+        "patientReportedSymptomsSummary": "29-year-old male reporting white patches on the tongue lasting less than one week, with severe or rapidly worsening symptoms.",
+        "lifestyleRiskFactorsSummary": "Reported cigarette smoking (duration and frequency unspecified); no alcohol consumption or betel/areca nut chewing reported.",
+        "recommendedNextSteps": [
+          "Arrange an urgent in-person evaluation with a dentist, oral medicine specialist, or ENT physician as soon as possible.",
+          "Discuss whether a clinical biopsy or other diagnostic tests are needed to establish an accurate diagnosis.",
+          "Pause all cigarette smoking and avoid spicy, acidic, or sharp foods that could further irritate the tongue.",
+          "Seek immediate emergency medical care if you experience trouble breathing, severe difficulty swallowing, uncontrolled bleeding, or rapid facial or neck swelling."
+        ],
+        "urgencyOfAssessment": "Urgent clinical evaluation recommended within 24 to 48 hours, or immediate emergency care if airway, swallowing, or severe swelling symptoms occur.",
+        "uncertaintyAndLimitations": "This preliminary screening relies solely on photographs and questionnaire responses and cannot diagnose any condition or determine whether a lesion is benign, precancerous, or malignant. Additionally, the third photograph differs significantly in lighting and clarity from the first two close-up images. Only a direct clinical examination and, when indicated, a tissue biopsy by a qualified healthcare professional can confirm the underlying cause.",
+        "emergencyGuidanceRequired": true,
+        "modelUsed": "gemini-4-hydrogen",
+        "generatedAt": "2026-11-14T18:40:53.633Z"
+      }
+    },
+    {
+      "id": "scr_1794680998241_xiiesu",
+      "reportCode": "SCR-2026-0001",
+      "patientId": "pat_1794677093286_zy9pxp",
+      "consentAccepted": true,
+      "consentTimestamp": "2026-11-14T18:29:58.241Z",
+      "questionnaire": {
+        "age": 25,
+        "gender": "male",
+        "generalLocation": "CHINTHAPALLI",
+        "previousOralProblems": "NO",
+        "usesTobacco": "yes",
+        "tobaccoTypes": [
+          "Cigarettes"
+        ],
+        "tobaccoFrequencyDuration": "2",
+        "consumesAlcohol": "yes",
+        "alcoholFrequencyDuration": "",
+        "chewsBetelOrArecaNut": "no",
+        "betelFrequencyDuration": "",
+        "symptoms": {
+          "whitePatches": true,
+          "redPatches": false,
+          "nonHealingUlcers": false,
+          "unusualGrowthsOrLumps": false,
+          "difficultyOpeningMouth": false,
+          "difficultySwallowing": false,
+          "painWhileChewing": false,
+          "bleedingInsideMouth": false,
+          "persistentPainOrNumbness": false,
+          "voiceChangeOrNeckSwelling": false
+        },
+        "symptomDuration": "Less than one week",
+        "otherSymptomsDescription": "",
+        "severeOrRapidlyWorsening": true
+      },
+      "images": [
+        {
+          "id": "img_1794680998241_wfnsve",
+          "oralRegion": "Tongue",
+          "fileName": "WhatsApp Image 2026-09-16 at 17.06.28.jpeg",
+          "mimeType": "image/jpeg",
+          "fileSize": 107693,
+          "storagePath": "C:\\Users\\YTC CHINTAPALLI\\Downloads\\aarogya-drishti-ap\\.data\\uploads\\screenings\\0178c9ab645c8bc2de74d46c8f8f2c69",
+          "uploadedAt": "2026-11-14T18:29:58.241Z"
+        }
+      ],
+      "status": "retake_required",
+      "createdAt": "2026-11-14T18:29:58.241Z",
+      "updatedAt": "2026-11-14T18:30:04.114Z",
+      "aiReport": {
+        "imageQuality": "inadequate",
+        "imageQualityReason": "The submitted photograph is a distant portrait taken in a public setting and does not show the inside of the mouth or the tongue. Please retake a well-lit, close-up, in-focus photograph directly showing the tongue and the area of concern.",
+        "observedVisibleFeatures": [
+          "No intraoral mucosa or tongue surfaces are visible in this image; only a distant view of the face and front teeth is shown."
+        ],
+        "reportedOralRegion": "Tongue",
+        "preliminaryRiskCategory": "Urgent Clinical Evaluation Recommended",
+        "riskExplanation": "Although the tongue cannot be evaluated from the submitted photograph, you reported white patches on the tongue along with severe or rapidly worsening symptoms, as well as cigarette smoking and alcohol use. Because severe or rapidly worsening oral symptoms require prompt in-person assessment, an urgent clinical evaluation is recommended.",
+        "patientReportedSymptomsSummary": "25-year-old male reporting white patches on the tongue lasting less than one week, with severe or rapidly worsening symptoms and no prior history of oral health problems.",
+        "lifestyleRiskFactorsSummary": "Reported cigarette smoking (duration/frequency noted as 2) and alcohol consumption; no betel nut or areca nut chewing reported.",
+        "recommendedNextSteps": [
+          "Seek prompt in-person evaluation from a qualified dentist, oral medicine specialist, or ENT doctor, especially given the severe or rapidly worsening symptoms.",
+          "If safe and feasible, retake a clear, well-lit close-up photograph directly showing the tongue for future screening reference, without delaying medical care.",
+          "Avoid tobacco and alcohol exposure and follow clinical guidance regarding whether further testing or a biopsy is needed."
+        ],
+        "urgencyOfAssessment": "Urgent clinical evaluation is recommended as soon as possible due to reported severe or rapidly worsening symptoms.",
+        "uncertaintyAndLimitations": "This preliminary screening cannot confirm any diagnosis because the submitted image does not depict the tongue or oral mucosa. Photographs cannot replace a direct physical examination or biopsy when clinically indicated.",
+        "emergencyGuidanceRequired": true,
+        "modelUsed": "gemini-4-hydrogen",
+        "generatedAt": "2026-11-14T18:30:04.114Z"
+      }
+    }
+  ],
+  "appointments": [
+    {
+      "id": "apt_1794681777745_u1jxwj",
+      "appointmentCode": "APT-0101",
+      "patientId": "pat_1794677093286_zy9pxp",
+      "doctorId": "doc_1",
+      "hospitalId": "hosp_1",
+      "screeningId": "scr_1794681638808_d24uqd",
+      "type": "normal",
+      "mode": "video",
+      "date": "2026-11-14",
+      "timeSlot": "10:00",
+      "reason": "LEUKOPLAKIA DISEASE",
+      "urgencyNotes": "",
+      "status": "completed",
+      "createdAt": "2026-11-14T18:42:57.744Z",
+      "updatedAt": "2026-11-14T18:50:53.445Z",
+      "doctorResponseNotes": "Confirmed by specialist.",
+      "videoRoomId": "room_apt_1794681777745_u1jxwj"
+    }
+  ],
+  "consultations": [
+    {
+      "id": "cons_1794682253445_82l8hl",
+      "appointmentId": "apt_1794681777745_u1jxwj",
+      "patientId": "pat_1794677093286_zy9pxp",
+      "doctorId": "doc_1",
+      "hospitalId": "hosp_1",
+      "screeningId": "scr_1794681638808_d24uqd",
+      "mode": "video",
+      "startedAt": "2026-11-14T18:50:53.445Z",
+      "endedAt": "2026-11-14T18:50:53.445Z",
+      "clinicalObservations": "KIJK",
+      "consultationNotes": "UGHJIOO",
+      "recommendations": "UBHNIJ",
+      "referralRecommended": true,
+      "referralDetails": "",
+      "diagnosticTestsSuggested": [
+        "In-person examination"
+      ],
+      "followUpDate": "",
+      "followUpInstructions": "UHUIJ",
+      "sharedWithPatient": true,
+      "createdAt": "2026-11-14T18:50:53.445Z",
+      "updatedAt": "2026-11-14T18:50:53.445Z"
+    }
+  ],
+  "notifications": [
+    {
+      "userId": "usr_pat_1794677093286_h7nkny",
+      "title": "Gemini Voice OTP Requested",
+      "message": "A 6-digit verification code was issued for +919490484091.",
+      "category": "otp",
+      "id": "notif_1794847451228_e2q4c",
+      "read": false,
+      "createdAt": "2026-11-16T16:44:11.228Z"
+    },
+    {
+      "userId": "usr_mgr_1",
+      "title": "ASHA Worker Request Requires Assignment",
+      "message": "A patient in Baski, araku valley requested a local ASHA Worker.",
+      "category": "followup",
+      "relatedId": "asha_req_1794814534186_wboif8",
+      "id": "notif_1794814534188_4ktfo",
+      "read": false,
+      "createdAt": "2026-11-16T07:35:34.188Z"
+    },
+    {
+      "userId": "usr_pat_1794811548401_0hq99r",
+      "title": "Welcome to Aarogya Drishti",
+      "message": "Your phone-verified oral health screening account is active. You can use AI Screening or Gemini Voice Guide anytime.",
+      "category": "account",
+      "id": "notif_1794811548404_0sl8z",
+      "read": false,
+      "createdAt": "2026-11-16T06:45:48.405Z"
+    },
+    {
+      "userId": "usr_pat_1794677093286_h7nkny",
+      "title": "Gemini Voice OTP Requested",
+      "message": "A 6-digit verification code was issued for +919490484091.",
+      "category": "otp",
+      "id": "notif_1794811474978_y7icf",
+      "read": false,
+      "createdAt": "2026-11-16T06:44:34.978Z"
+    },
+    {
+      "userId": "usr_pat_1794677093286_h7nkny",
+      "title": "Gemini Voice OTP Requested",
+      "message": "A 6-digit verification code was issued for +919490484091.",
+      "category": "otp",
+      "id": "notif_1794810599133_q43l4",
+      "read": false,
+      "createdAt": "2026-11-16T06:29:59.133Z"
+    },
+    {
+      "userId": "usr_pat_1794677093286_h7nkny",
+      "title": "Gemini Voice OTP Requested",
+      "message": "A 6-digit verification code was issued for +919490484091.",
+      "category": "otp",
+      "id": "notif_1794803828296_ljbw1",
+      "read": false,
+      "createdAt": "2026-11-16T04:37:08.296Z"
+    },
+    {
+      "userId": "usr_pat_1794677093286_h7nkny",
+      "title": "Gemini Voice OTP Requested",
+      "message": "A 6-digit verification code was issued for +919490484091.",
+      "category": "otp",
+      "id": "notif_1794762433023_q1w75",
+      "read": false,
+      "createdAt": "2026-11-15T17:07:13.023Z"
+    },
+    {
+      "userId": "usr_pat_1794677093286_h7nkny",
+      "title": "Gemini Voice OTP Requested",
+      "message": "A 6-digit verification code was issued for +919490484091.",
+      "category": "otp",
+      "id": "notif_1794761643053_8j3i1",
+      "read": false,
+      "createdAt": "2026-11-15T16:54:03.053Z"
+    },
+    {
+      "userId": "usr_pat_1794677093286_h7nkny",
+      "title": "Gemini Voice OTP Requested",
+      "message": "A 6-digit verification code was issued for +919490484091.",
+      "category": "otp",
+      "id": "notif_1794757148761_fnlsf",
+      "read": false,
+      "createdAt": "2026-11-15T15:39:08.761Z"
+    },
+    {
+      "userId": "usr_pat_1794677093286_h7nkny",
+      "title": "Gemini Voice OTP Requested",
+      "message": "A 6-digit verification code was issued for +919490484091.",
+      "category": "otp",
+      "id": "notif_1794737313722_swgtd",
+      "read": false,
+      "createdAt": "2026-11-15T10:08:33.722Z"
+    },
+    {
+      "userId": "usr_pat_1794677093286_h7nkny",
+      "title": "Gemini Voice OTP Requested",
+      "message": "A 6-digit verification code was issued for +919490484091.",
+      "category": "otp",
+      "id": "notif_1794734043477_f2cf1",
+      "read": false,
+      "createdAt": "2026-11-15T09:14:03.477Z"
+    },
+    {
+      "userId": "usr_pat_1794677093286_h7nkny",
+      "title": "Gemini Voice OTP Requested",
+      "message": "A 6-digit verification code was issued for +919490484091.",
+      "category": "otp",
+      "id": "notif_1794733076918_olzu8",
+      "read": false,
+      "createdAt": "2026-11-15T08:57:56.918Z"
+    },
+    {
+      "userId": "usr_pat_1794677093286_h7nkny",
+      "title": "Screening Report Ready (SCR-2026-0003)",
+      "message": "Preliminary category: Urgent Clinical Evaluation Recommended. Review your next steps and specialist options.",
+      "category": "report",
+      "relatedId": "scr_1794728905762_3yrcyl",
+      "id": "notif_1794728916227_yri0i",
+      "read": false,
+      "createdAt": "2026-11-15T07:48:36.227Z"
+    },
+    {
+      "userId": "usr_pat_1794677093286_h7nkny",
+      "title": "Gemini Voice OTP Requested",
+      "message": "A 6-digit verification code was issued for +919490484091.",
+      "category": "otp",
+      "id": "notif_1794726053998_v4or5",
+      "read": false,
+      "createdAt": "2026-11-15T07:00:53.998Z"
+    },
+    {
+      "userId": "usr_pat_1794677093286_h7nkny",
+      "title": "Gemini Voice OTP Requested",
+      "message": "A 6-digit verification code was issued for +919490484091.",
+      "category": "otp",
+      "id": "notif_1794726020695_tzrz6",
+      "read": false,
+      "createdAt": "2026-11-15T07:00:20.695Z"
+    },
+    {
+      "userId": "usr_pat_1794677093286_h7nkny",
+      "title": "Gemini Voice OTP Requested",
+      "message": "A 6-digit verification code was issued for +919490484091.",
+      "category": "otp",
+      "id": "notif_1794725191702_ny6w6",
+      "read": false,
+      "createdAt": "2026-11-15T06:46:31.703Z"
+    },
+    {
+      "userId": "usr_pat_1794677093286_h7nkny",
+      "title": "Consultation Notes & Follow-Up Available",
+      "message": "Dr. Priya Sharma added clinical consultation notes and follow-up instructions for APT-0101.",
+      "category": "consultation",
+      "relatedId": "cons_1794682253445_82l8hl",
+      "id": "notif_1794682253445_q589g",
+      "read": false,
+      "createdAt": "2026-11-14T18:50:53.445Z"
+    },
+    {
+      "userId": "usr_pat_1794677093286_h7nkny",
+      "title": "Appointment Accepted",
+      "message": "Dr. Priya Sharma updated your normal request (APT-0101) to accepted.",
+      "category": "appointment",
+      "relatedId": "apt_1794681777745_u1jxwj",
+      "id": "notif_1794681844054_vr23m",
+      "read": false,
+      "createdAt": "2026-11-14T18:44:04.054Z"
+    },
+    {
+      "userId": "usr_doc_1",
+      "title": "New Appointment Request (APT-0101)",
+      "message": "MOHAN requested a video consultation on 2026-11-14 at 10:00.",
+      "category": "appointment",
+      "relatedId": "apt_1794681777745_u1jxwj",
+      "id": "notif_1794681777745_fddkp",
+      "read": false,
+      "createdAt": "2026-11-14T18:42:57.745Z"
+    },
+    {
+      "userId": "usr_pat_1794677093286_h7nkny",
+      "title": "Screening Report Ready (SCR-2026-0002)",
+      "message": "Preliminary category: Urgent Clinical Evaluation Recommended. Review your next steps and specialist options.",
+      "category": "report",
+      "relatedId": "scr_1794681638808_d24uqd",
+      "id": "notif_1794681653637_nlmpd",
+      "read": false,
+      "createdAt": "2026-11-14T18:40:53.637Z"
+    },
+    {
+      "userId": "usr_pat_1794677093286_h7nkny",
+      "title": "Clearer Oral Photo Needed",
+      "message": "The uploaded photo was unclear. Please retake the photograph in bright lighting.",
+      "category": "report",
+      "relatedId": "scr_1794680998241_xiiesu",
+      "id": "notif_1794681004116_gvaai",
+      "read": false,
+      "createdAt": "2026-11-14T18:30:04.116Z"
+    },
+    {
+      "userId": "usr_pat_1794677093286_h7nkny",
+      "title": "Gemini Voice OTP Requested",
+      "message": "A 6-digit verification code was issued for +919490484091.",
+      "category": "otp",
+      "id": "notif_1794680405213_pifcp",
+      "read": false,
+      "createdAt": "2026-11-14T18:20:05.213Z"
+    },
+    {
+      "userId": "usr_pat_1794677093286_h7nkny",
+      "title": "Welcome to Aarogya Drishti",
+      "message": "Your phone-verified oral health screening account is active. You can use AI Screening or Gemini Voice Guide anytime.",
+      "category": "account",
+      "id": "notif_1794677093286_4kobu",
+      "read": false,
+      "createdAt": "2026-11-14T17:24:53.286Z"
+    },
+    {
+      "userId": "usr_pat_1794647769400_1zi3w4",
+      "title": "Welcome to Aarogya Drishti",
+      "message": "Your phone-verified oral health screening account is active. You can use AI Screening or Gemini Voice Guide anytime.",
+      "category": "account",
+      "id": "notif_1794647769401_m6wlo",
+      "read": false,
+      "createdAt": "2026-11-14T09:16:09.401Z"
+    },
+    {
+      "userId": "usr_pat_1794647700647_w7b0bp",
+      "title": "Welcome to Aarogya Drishti",
+      "message": "Your phone-verified oral health screening account is active. You can use AI Screening or Gemini Voice Guide anytime.",
+      "category": "account",
+      "id": "notif_1794647700648_mksvo",
+      "read": false,
+      "createdAt": "2026-11-14T09:15:00.648Z"
+    },
+    {
+      "userId": "usr_pat_1794647637681_frfza1",
+      "title": "Welcome to Aarogya Drishti",
+      "message": "Your phone-verified oral health screening account is active. You can use AI Screening or Gemini Voice Guide anytime.",
+      "category": "account",
+      "id": "notif_1794647637681_hvdtz",
+      "read": false,
+      "createdAt": "2026-11-14T09:13:57.681Z"
+    },
+    {
+      "userId": "usr_pat_1794647629735_d3xgf0",
+      "title": "Welcome to Aarogya Drishti",
+      "message": "Your phone-verified oral health screening account is active. You can use AI Screening or Gemini Voice Guide anytime.",
+      "category": "account",
+      "id": "notif_1794647629735_yn5x1",
+      "read": false,
+      "createdAt": "2026-11-14T09:13:49.735Z"
+    },
+    {
+      "userId": "usr_pat_1794647565001_3a3l4t",
+      "title": "Welcome to Aarogya Drishti",
+      "message": "Your phone-verified oral health screening account is active. You can use AI Screening or Gemini Voice Guide anytime.",
+      "category": "account",
+      "id": "notif_1794647565001_dzubt",
+      "read": false,
+      "createdAt": "2026-11-14T09:12:45.001Z"
+    },
+    {
+      "userId": "usr_pat_1794646348676_yuwe20",
+      "title": "Login OTP Issued",
+      "message": "A one-time verification code was requested for your mobile number (9876543210).",
+      "category": "otp",
+      "id": "notif_1794646960744_2bv8s",
+      "read": false,
+      "createdAt": "2026-11-14T09:02:40.744Z"
+    },
+    {
+      "userId": "usr_pat_1794646348676_yuwe20",
+      "title": "Login OTP Issued",
+      "message": "A one-time verification code was requested for your mobile number (9876543210).",
+      "category": "otp",
+      "id": "notif_1794646960724_oj31r",
+      "read": false,
+      "createdAt": "2026-11-14T09:02:40.724Z"
+    },
+    {
+      "userId": "usr_pat_1794646348676_yuwe20",
+      "title": "Welcome to Aarogya Drishti",
+      "message": "Your private oral health screening account is active. You can begin a preliminary screening anytime.",
+      "category": "account",
+      "id": "notif_1794646348676_mfh7y",
+      "read": false,
+      "createdAt": "2026-11-14T08:52:28.676Z"
+    },
+    {
+      "userId": "usr_pat_1794645852175_speln2",
+      "title": "Welcome to Aarogya Drishti",
+      "message": "Your private oral health screening account is active. You can begin a preliminary screening anytime.",
+      "category": "account",
+      "id": "notif_1794645852175_2xal4",
+      "read": false,
+      "createdAt": "2026-11-14T08:44:12.175Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "actorUserId": "usr_pat_1794677093286_h7nkny",
+      "actorRole": "patient",
+      "actorName": "MOHAN",
+      "action": "PATIENT_OTP_LOGIN",
+      "targetType": "patient",
+      "targetId": "pat_1794677093286_zy9pxp",
+      "metadata": {
+        "mobileNormalized": "+919490484091"
+      },
+      "id": "aud_1794847466318_lgk4r",
+      "createdAt": "2026-11-16T16:44:26.318Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "STAFF_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_doc_1",
+      "hospitalId": "hosp_1",
+      "id": "aud_1794847062252_huili",
+      "createdAt": "2026-11-16T16:37:42.252Z"
+    },
+    {
+      "actorUserId": "usr_admin_1",
+      "actorRole": "admin",
+      "actorName": "Platform Administrator",
+      "action": "STAFF_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_admin_1",
+      "id": "aud_1794846555352_c3df3",
+      "createdAt": "2026-11-16T16:29:15.352Z"
+    },
+    {
+      "actorUserId": "usr_admin_1",
+      "actorRole": "admin",
+      "actorName": "Platform Administrator",
+      "action": "PLATFORM_SETTINGS_UPDATED",
+      "targetType": "settings",
+      "targetId": "default",
+      "id": "aud_1794845337188_jmguu",
+      "createdAt": "2026-11-16T16:08:57.188Z"
+    },
+    {
+      "actorUserId": "usr_admin_1",
+      "actorRole": "admin",
+      "actorName": "Platform Administrator",
+      "action": "ADMIN_VIEWED_SCREENING_MONITOR",
+      "targetType": "screening_list",
+      "targetId": "all",
+      "justification": "Platform urgent case oversight",
+      "id": "aud_1794845313152_bem30",
+      "createdAt": "2026-11-16T16:08:33.152Z"
+    },
+    {
+      "actorUserId": "usr_admin_1",
+      "actorRole": "admin",
+      "actorName": "Platform Administrator",
+      "action": "STAFF_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_admin_1",
+      "id": "aud_1794845223951_7a9hj",
+      "createdAt": "2026-11-16T16:07:03.951Z"
+    },
+    {
+      "actorUserId": "usr_mgr_1",
+      "actorRole": "hospital_manager",
+      "actorName": "Suresh Menon (Mgr)",
+      "action": "STAFF_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_mgr_1",
+      "hospitalId": "hosp_1",
+      "id": "aud_1794843434329_us1af",
+      "createdAt": "2026-11-16T15:37:14.329Z"
+    },
+    {
+      "actorUserId": "usr_pat_1794811548401_0hq99r",
+      "actorRole": "patient",
+      "actorName": "nani",
+      "action": "ASHA_WORKER_REQUESTED",
+      "targetType": "asha_worker_request",
+      "targetId": "asha_req_1794814534186_wboif8",
+      "metadata": {
+        "village": "Baski",
+        "mandal": "araku valley"
+      },
+      "id": "aud_1794814534186_3i7zz",
+      "createdAt": "2026-11-16T07:35:34.186Z"
+    },
+    {
+      "actorUserId": "usr_pat_1794811548401_0hq99r",
+      "actorRole": "patient",
+      "actorName": "nani",
+      "action": "PATIENT_REGISTER",
+      "targetType": "patient",
+      "targetId": "pat_1794811548401_zwxc4a",
+      "metadata": {
+        "mobileNormalized": "+919490484090"
+      },
+      "id": "aud_1794811548406_bgz2e",
+      "createdAt": "2026-11-16T06:45:48.406Z"
+    },
+    {
+      "actorUserId": "usr_pat_1794677093286_h7nkny",
+      "actorRole": "patient",
+      "actorName": "MOHAN",
+      "action": "PATIENT_OTP_LOGIN",
+      "targetType": "patient",
+      "targetId": "pat_1794677093286_zy9pxp",
+      "metadata": {
+        "mobileNormalized": "+919490484091"
+      },
+      "id": "aud_1794810618966_7vh98",
+      "createdAt": "2026-11-16T06:30:18.966Z"
+    },
+    {
+      "actorUserId": "usr_pat_1794677093286_h7nkny",
+      "actorRole": "patient",
+      "actorName": "MOHAN",
+      "action": "PATIENT_OTP_LOGIN",
+      "targetType": "patient",
+      "targetId": "pat_1794677093286_zy9pxp",
+      "metadata": {
+        "mobileNormalized": "+919490484091"
+      },
+      "id": "aud_1794803844961_x9qo8",
+      "createdAt": "2026-11-16T04:37:24.961Z"
+    },
+    {
+      "actorUserId": "usr_admin_1",
+      "actorRole": "admin",
+      "actorName": "Platform Administrator",
+      "action": "ADMIN_VIEWED_SCREENING_MONITOR",
+      "targetType": "screening_list",
+      "targetId": "all",
+      "justification": "Platform urgent case oversight",
+      "id": "aud_1794796598328_1on70",
+      "createdAt": "2026-11-16T02:36:38.328Z"
+    },
+    {
+      "actorUserId": "usr_admin_1",
+      "actorRole": "admin",
+      "actorName": "Platform Administrator",
+      "action": "ADMIN_VIEWED_SCREENING_MONITOR",
+      "targetType": "screening_list",
+      "targetId": "all",
+      "justification": "Platform urgent case oversight",
+      "id": "aud_1794796591646_so6az",
+      "createdAt": "2026-11-16T02:36:31.646Z"
+    },
+    {
+      "actorUserId": "usr_admin_1",
+      "actorRole": "admin",
+      "actorName": "Platform Administrator",
+      "action": "ADMIN_VIEWED_SCREENING_MONITOR",
+      "targetType": "screening_list",
+      "targetId": "all",
+      "justification": "Platform urgent case oversight",
+      "id": "aud_1794796452673_3uihp",
+      "createdAt": "2026-11-16T02:34:12.673Z"
+    },
+    {
+      "actorUserId": "usr_admin_1",
+      "actorRole": "admin",
+      "actorName": "Platform Administrator",
+      "action": "STAFF_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_admin_1",
+      "id": "aud_1794795590566_vnv3h",
+      "createdAt": "2026-11-16T02:19:50.566Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "STAFF_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_doc_1",
+      "hospitalId": "hosp_1",
+      "id": "aud_1794795570337_ss1vd",
+      "createdAt": "2026-11-16T02:19:30.337Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "STAFF_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_doc_1",
+      "hospitalId": "hosp_1",
+      "id": "aud_1794795463273_osnxk",
+      "createdAt": "2026-11-16T02:17:43.273Z"
+    },
+    {
+      "actorUserId": "usr_admin_1",
+      "actorRole": "admin",
+      "actorName": "Platform Administrator",
+      "action": "STAFF_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_admin_1",
+      "id": "aud_1794763768377_29kdl",
+      "createdAt": "2026-11-15T17:29:28.377Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "STAFF_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_doc_1",
+      "hospitalId": "hosp_1",
+      "id": "aud_1794763750514_ep6jo",
+      "createdAt": "2026-11-15T17:29:10.514Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "STAFF_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_doc_1",
+      "hospitalId": "hosp_1",
+      "id": "aud_1794763513659_opc9j",
+      "createdAt": "2026-11-15T17:25:13.659Z"
+    },
+    {
+      "actorUserId": "usr_admin_1",
+      "actorRole": "admin",
+      "actorName": "Platform Administrator",
+      "action": "ADMIN_VIEWED_SCREENING_MONITOR",
+      "targetType": "screening_list",
+      "targetId": "all",
+      "justification": "Platform urgent case oversight",
+      "id": "aud_1794763467747_1mt8w",
+      "createdAt": "2026-11-15T17:24:27.747Z"
+    },
+    {
+      "actorUserId": "usr_admin_1",
+      "actorRole": "admin",
+      "actorName": "Platform Administrator",
+      "action": "ADMIN_VIEWED_SCREENING_MONITOR",
+      "targetType": "screening_list",
+      "targetId": "all",
+      "justification": "Platform urgent case oversight",
+      "id": "aud_1794763434018_fvzai",
+      "createdAt": "2026-11-15T17:23:54.018Z"
+    },
+    {
+      "actorUserId": "usr_admin_1",
+      "actorRole": "admin",
+      "actorName": "Platform Administrator",
+      "action": "STAFF_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_admin_1",
+      "id": "aud_1794763305836_r4oyp",
+      "createdAt": "2026-11-15T17:21:45.836Z"
+    },
+    {
+      "actorUserId": "usr_mgr_1",
+      "actorRole": "hospital_manager",
+      "actorName": "Suresh Menon (Mgr)",
+      "action": "STAFF_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_mgr_1",
+      "hospitalId": "hosp_1",
+      "id": "aud_1794763144270_jbath",
+      "createdAt": "2026-11-15T17:19:04.270Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "STAFF_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_doc_1",
+      "hospitalId": "hosp_1",
+      "id": "aud_1794762948094_14fzn",
+      "createdAt": "2026-11-15T17:15:48.094Z"
+    },
+    {
+      "actorUserId": "usr_pat_1794677093286_h7nkny",
+      "actorRole": "patient",
+      "actorName": "MOHAN",
+      "action": "PATIENT_OTP_LOGIN",
+      "targetType": "patient",
+      "targetId": "pat_1794677093286_zy9pxp",
+      "metadata": {
+        "mobileNormalized": "+919490484091"
+      },
+      "id": "aud_1794762450807_4raw9",
+      "createdAt": "2026-11-15T17:07:30.807Z"
+    },
+    {
+      "actorUserId": "usr_admin_1",
+      "actorRole": "admin",
+      "actorName": "Platform Administrator",
+      "action": "STAFF_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_admin_1",
+      "id": "aud_1794761759082_r4ayf",
+      "createdAt": "2026-11-15T16:55:59.082Z"
+    },
+    {
+      "actorUserId": "usr_mgr_1",
+      "actorRole": "hospital_manager",
+      "actorName": "Suresh Menon (Mgr)",
+      "action": "STAFF_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_mgr_1",
+      "hospitalId": "hosp_1",
+      "id": "aud_1794761744910_ezd7w",
+      "createdAt": "2026-11-15T16:55:44.910Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "STAFF_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_doc_1",
+      "hospitalId": "hosp_1",
+      "id": "aud_1794761721583_3cdgs",
+      "createdAt": "2026-11-15T16:55:21.583Z"
+    },
+    {
+      "actorUserId": "usr_pat_1794677093286_h7nkny",
+      "actorRole": "patient",
+      "actorName": "mohan",
+      "action": "PATIENT_OTP_LOGIN",
+      "targetType": "patient",
+      "targetId": "pat_1794677093286_zy9pxp",
+      "metadata": {
+        "mobileNormalized": "+919490484091"
+      },
+      "id": "aud_1794761662649_1696x",
+      "createdAt": "2026-11-15T16:54:22.649Z"
+    },
+    {
+      "actorUserId": "usr_pat_1794677093286_h7nkny",
+      "actorRole": "patient",
+      "actorName": "mohan",
+      "action": "PATIENT_OTP_LOGIN",
+      "targetType": "patient",
+      "targetId": "pat_1794677093286_zy9pxp",
+      "metadata": {
+        "mobileNormalized": "+919490484091"
+      },
+      "id": "aud_1794757167790_voetj",
+      "createdAt": "2026-11-15T15:39:27.790Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "STAFF_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_doc_1",
+      "hospitalId": "hosp_1",
+      "id": "aud_1794737494318_tn5j6",
+      "createdAt": "2026-11-15T10:11:34.318Z"
+    },
+    {
+      "actorUserId": "usr_pat_1794677093286_h7nkny",
+      "actorRole": "patient",
+      "actorName": "mohan",
+      "action": "PATIENT_OTP_LOGIN",
+      "targetType": "patient",
+      "targetId": "pat_1794677093286_zy9pxp",
+      "metadata": {
+        "mobileNormalized": "+919490484091"
+      },
+      "id": "aud_1794737332360_fmtv4",
+      "createdAt": "2026-11-15T10:08:52.360Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "STAFF_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_doc_1",
+      "hospitalId": "hosp_1",
+      "id": "aud_1794734692337_cwrgv",
+      "createdAt": "2026-11-15T09:24:52.337Z"
+    },
+    {
+      "actorUserId": "usr_pat_1794677093286_h7nkny",
+      "actorRole": "patient",
+      "actorName": "mohan",
+      "action": "PATIENT_OTP_LOGIN",
+      "targetType": "patient",
+      "targetId": "pat_1794677093286_zy9pxp",
+      "metadata": {
+        "mobileNormalized": "+919490484091"
+      },
+      "id": "aud_1794734066259_n49y7",
+      "createdAt": "2026-11-15T09:14:26.259Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "STAFF_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_doc_1",
+      "hospitalId": "hosp_1",
+      "id": "aud_1794733233836_k4htj",
+      "createdAt": "2026-11-15T09:00:33.836Z"
+    },
+    {
+      "actorUserId": "usr_pat_1794677093286_h7nkny",
+      "actorRole": "patient",
+      "actorName": "mohan",
+      "action": "PATIENT_OTP_LOGIN",
+      "targetType": "patient",
+      "targetId": "pat_1794677093286_zy9pxp",
+      "metadata": {
+        "mobileNormalized": "+919490484091"
+      },
+      "id": "aud_1794733089765_qq6q2",
+      "createdAt": "2026-11-15T08:58:09.765Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "DOCTOR_ACCESSED_PATIENT_HISTORY",
+      "targetType": "patient",
+      "targetId": "pat_1794677093286_zy9pxp",
+      "hospitalId": "hosp_1",
+      "justification": "Clinical consultation & screening review",
+      "id": "aud_1794733008605_21jui",
+      "createdAt": "2026-11-15T08:56:48.605Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "VIEWED_PATIENT_ORAL_IMAGE",
+      "targetType": "screening_image",
+      "targetId": "img_1794680998241_wfnsve",
+      "hospitalId": "hosp_1",
+      "justification": "Clinical review for screening SCR-2026-0001",
+      "id": "aud_1794733008282_2e3pi",
+      "createdAt": "2026-11-15T08:56:48.282Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "VIEWED_PATIENT_ORAL_IMAGE",
+      "targetType": "screening_image",
+      "targetId": "img_1794681638808_5yv8r8",
+      "hospitalId": "hosp_1",
+      "justification": "Clinical review for screening SCR-2026-0002",
+      "id": "aud_1794733008279_3xri6",
+      "createdAt": "2026-11-15T08:56:48.279Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "VIEWED_PATIENT_ORAL_IMAGE",
+      "targetType": "screening_image",
+      "targetId": "img_1794681638808_tqs3lu",
+      "hospitalId": "hosp_1",
+      "justification": "Clinical review for screening SCR-2026-0002",
+      "id": "aud_1794733008275_99bnd",
+      "createdAt": "2026-11-15T08:56:48.275Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "VIEWED_PATIENT_ORAL_IMAGE",
+      "targetType": "screening_image",
+      "targetId": "img_1794681638808_lp01jt",
+      "hospitalId": "hosp_1",
+      "justification": "Clinical review for screening SCR-2026-0002",
+      "id": "aud_1794733008273_j0rzp",
+      "createdAt": "2026-11-15T08:56:48.273Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "VIEWED_PATIENT_ORAL_IMAGE",
+      "targetType": "screening_image",
+      "targetId": "img_1794728905762_twwy9z",
+      "hospitalId": "hosp_1",
+      "justification": "Clinical review for screening SCR-2026-0003",
+      "id": "aud_1794733008271_he1uc",
+      "createdAt": "2026-11-15T08:56:48.271Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "DOCTOR_ACCESSED_PATIENT_HISTORY",
+      "targetType": "patient",
+      "targetId": "pat_1794677093286_zy9pxp",
+      "hospitalId": "hosp_1",
+      "justification": "Clinical consultation & screening review",
+      "id": "aud_1794733008262_9ur2h",
+      "createdAt": "2026-11-15T08:56:48.262Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "STAFF_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_doc_1",
+      "hospitalId": "hosp_1",
+      "id": "aud_1794732982411_2lm8g",
+      "createdAt": "2026-11-15T08:56:22.411Z"
+    },
+    {
+      "actorUserId": "usr_pat_1794677093286_h7nkny",
+      "actorRole": "patient",
+      "actorName": "mohan",
+      "action": "SCREENING_COMPLETED",
+      "targetType": "screening",
+      "targetId": "scr_1794728905762_3yrcyl",
+      "metadata": {
+        "reportCode": "SCR-2026-0003",
+        "riskCategory": "Urgent Clinical Evaluation Recommended",
+        "imageQuality": "adequate"
+      },
+      "id": "aud_1794728916225_yuy8g",
+      "createdAt": "2026-11-15T07:48:36.225Z"
+    },
+    {
+      "actorUserId": "usr_mgr_1",
+      "actorRole": "hospital_manager",
+      "actorName": "Suresh Menon (Mgr)",
+      "action": "STAFF_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_mgr_1",
+      "hospitalId": "hosp_1",
+      "id": "aud_1794726345349_gcomg",
+      "createdAt": "2026-11-15T07:05:45.349Z"
+    },
+    {
+      "actorUserId": "usr_pat_1794677093286_h7nkny",
+      "actorRole": "patient",
+      "actorName": "mohan",
+      "action": "PATIENT_OTP_LOGIN",
+      "targetType": "patient",
+      "targetId": "pat_1794677093286_zy9pxp",
+      "metadata": {
+        "mobileNormalized": "+919490484091"
+      },
+      "id": "aud_1794726068091_hhzxz",
+      "createdAt": "2026-11-15T07:01:08.091Z"
+    },
+    {
+      "actorUserId": "usr_mgr_1",
+      "actorRole": "hospital_manager",
+      "actorName": "Suresh Menon (Mgr)",
+      "action": "STAFF_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_mgr_1",
+      "hospitalId": "hosp_1",
+      "id": "aud_1794725697497_4g5oo",
+      "createdAt": "2026-11-15T06:54:57.497Z"
+    },
+    {
+      "actorUserId": "usr_pat_1794677093286_h7nkny",
+      "actorRole": "patient",
+      "actorName": "mohan",
+      "action": "PATIENT_OTP_LOGIN",
+      "targetType": "patient",
+      "targetId": "pat_1794677093286_zy9pxp",
+      "metadata": {
+        "mobileNormalized": "+919490484091"
+      },
+      "id": "aud_1794725206402_q7c9p",
+      "createdAt": "2026-11-15T06:46:46.402Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "STAFF_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_doc_1",
+      "hospitalId": "hosp_1",
+      "id": "aud_1794682325755_galha",
+      "createdAt": "2026-11-14T18:52:05.755Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "VIEWED_PATIENT_ORAL_IMAGE",
+      "targetType": "screening_image",
+      "targetId": "img_1794681638808_5yv8r8",
+      "hospitalId": "hosp_1",
+      "justification": "Clinical review for screening SCR-2026-0002",
+      "id": "aud_1794682269282_kfpy3",
+      "createdAt": "2026-11-14T18:51:09.282Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "VIEWED_PATIENT_ORAL_IMAGE",
+      "targetType": "screening_image",
+      "targetId": "img_1794681638808_tqs3lu",
+      "hospitalId": "hosp_1",
+      "justification": "Clinical review for screening SCR-2026-0002",
+      "id": "aud_1794682269275_uvhjv",
+      "createdAt": "2026-11-14T18:51:09.275Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "VIEWED_PATIENT_ORAL_IMAGE",
+      "targetType": "screening_image",
+      "targetId": "img_1794680998241_wfnsve",
+      "hospitalId": "hosp_1",
+      "justification": "Clinical review for screening SCR-2026-0001",
+      "id": "aud_1794682269273_5v2dg",
+      "createdAt": "2026-11-14T18:51:09.273Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "VIEWED_PATIENT_ORAL_IMAGE",
+      "targetType": "screening_image",
+      "targetId": "img_1794681638808_lp01jt",
+      "hospitalId": "hosp_1",
+      "justification": "Clinical review for screening SCR-2026-0002",
+      "id": "aud_1794682269272_3h1ge",
+      "createdAt": "2026-11-14T18:51:09.272Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "DOCTOR_ACCESSED_PATIENT_HISTORY",
+      "targetType": "patient",
+      "targetId": "pat_1794677093286_zy9pxp",
+      "hospitalId": "hosp_1",
+      "justification": "Clinical consultation & screening review",
+      "id": "aud_1794682269259_m12ge",
+      "createdAt": "2026-11-14T18:51:09.259Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "CONSULTATION_RECORD_SAVED",
+      "targetType": "consultation",
+      "targetId": "cons_1794682253445_82l8hl",
+      "hospitalId": "hosp_1",
+      "metadata": {
+        "appointmentId": "apt_1794681777745_u1jxwj",
+        "markCompleted": true
+      },
+      "id": "aud_1794682253447_lvevt",
+      "createdAt": "2026-11-14T18:50:53.447Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "DOCTOR_ACCESSED_PATIENT_HISTORY",
+      "targetType": "patient",
+      "targetId": "pat_1794677093286_zy9pxp",
+      "hospitalId": "hosp_1",
+      "justification": "Clinical consultation & screening review",
+      "id": "aud_1794681882147_ma49s",
+      "createdAt": "2026-11-14T18:44:42.147Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "DOCTOR_ACCESSED_PATIENT_HISTORY",
+      "targetType": "patient",
+      "targetId": "pat_1794677093286_zy9pxp",
+      "hospitalId": "hosp_1",
+      "justification": "Clinical consultation & screening review",
+      "id": "aud_1794681881747_1334a",
+      "createdAt": "2026-11-14T18:44:41.747Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "VIEWED_PATIENT_ORAL_IMAGE",
+      "targetType": "screening_image",
+      "targetId": "img_1794681638808_5yv8r8",
+      "hospitalId": "hosp_1",
+      "justification": "Clinical review for screening SCR-2026-0002",
+      "id": "aud_1794681853202_81evi",
+      "createdAt": "2026-11-14T18:44:13.202Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "VIEWED_PATIENT_ORAL_IMAGE",
+      "targetType": "screening_image",
+      "targetId": "img_1794681638808_tqs3lu",
+      "hospitalId": "hosp_1",
+      "justification": "Clinical review for screening SCR-2026-0002",
+      "id": "aud_1794681853156_wczaj",
+      "createdAt": "2026-11-14T18:44:13.156Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "VIEWED_PATIENT_ORAL_IMAGE",
+      "targetType": "screening_image",
+      "targetId": "img_1794680998241_wfnsve",
+      "hospitalId": "hosp_1",
+      "justification": "Clinical review for screening SCR-2026-0001",
+      "id": "aud_1794681853154_ka1c8",
+      "createdAt": "2026-11-14T18:44:13.155Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "VIEWED_PATIENT_ORAL_IMAGE",
+      "targetType": "screening_image",
+      "targetId": "img_1794681638808_lp01jt",
+      "hospitalId": "hosp_1",
+      "justification": "Clinical review for screening SCR-2026-0002",
+      "id": "aud_1794681853153_5enmt",
+      "createdAt": "2026-11-14T18:44:13.153Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "DOCTOR_ACCESSED_PATIENT_HISTORY",
+      "targetType": "patient",
+      "targetId": "pat_1794677093286_zy9pxp",
+      "hospitalId": "hosp_1",
+      "justification": "Clinical consultation & screening review",
+      "id": "aud_1794681853133_8o0cs",
+      "createdAt": "2026-11-14T18:44:13.133Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "APPOINTMENT_ACCEPTED",
+      "targetType": "appointment",
+      "targetId": "apt_1794681777745_u1jxwj",
+      "hospitalId": "hosp_1",
+      "id": "aud_1794681844057_9qk4z",
+      "createdAt": "2026-11-14T18:44:04.057Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "STAFF_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_doc_1",
+      "hospitalId": "hosp_1",
+      "id": "aud_1794681808221_hiw62",
+      "createdAt": "2026-11-14T18:43:28.221Z"
+    },
+    {
+      "actorUserId": "usr_pat_1794677093286_h7nkny",
+      "actorRole": "patient",
+      "actorName": "MOHAN",
+      "action": "APPOINTMENT_BOOKED",
+      "targetType": "appointment",
+      "targetId": "apt_1794681777745_u1jxwj",
+      "hospitalId": "hosp_1",
+      "id": "aud_1794681777747_g9v2b",
+      "createdAt": "2026-11-14T18:42:57.747Z"
+    },
+    {
+      "actorUserId": "usr_pat_1794677093286_h7nkny",
+      "actorRole": "patient",
+      "actorName": "MOHAN",
+      "action": "SCREENING_COMPLETED",
+      "targetType": "screening",
+      "targetId": "scr_1794681638808_d24uqd",
+      "metadata": {
+        "reportCode": "SCR-2026-0002",
+        "riskCategory": "Urgent Clinical Evaluation Recommended",
+        "imageQuality": "adequate"
+      },
+      "id": "aud_1794681653635_mpzn5",
+      "createdAt": "2026-11-14T18:40:53.635Z"
+    },
+    {
+      "actorUserId": "usr_pat_1794677093286_h7nkny",
+      "actorRole": "patient",
+      "actorName": "MOHAN",
+      "action": "SCREENING_COMPLETED",
+      "targetType": "screening",
+      "targetId": "scr_1794680998241_xiiesu",
+      "metadata": {
+        "reportCode": "SCR-2026-0001",
+        "riskCategory": "Urgent Clinical Evaluation Recommended",
+        "imageQuality": "inadequate"
+      },
+      "id": "aud_1794681004115_pojjs",
+      "createdAt": "2026-11-14T18:30:04.115Z"
+    },
+    {
+      "actorUserId": "usr_pat_1794677093286_h7nkny",
+      "actorRole": "patient",
+      "actorName": "MOHAN",
+      "action": "PATIENT_OTP_LOGIN",
+      "targetType": "patient",
+      "targetId": "pat_1794677093286_zy9pxp",
+      "metadata": {
+        "mobileNormalized": "+919490484091"
+      },
+      "id": "aud_1794680425417_bcfdi",
+      "createdAt": "2026-11-14T18:20:25.417Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "STAFF_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_doc_1",
+      "hospitalId": "hosp_1",
+      "id": "aud_1794679978385_f78jz",
+      "createdAt": "2026-11-14T18:12:58.385Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "DOCTOR_AVAILABILITY_UPDATED",
+      "targetType": "doctor",
+      "targetId": "doc_1",
+      "hospitalId": "hosp_1",
+      "id": "aud_1794679796466_u8pog",
+      "createdAt": "2026-11-14T18:09:56.466Z"
+    },
+    {
+      "actorUserId": "usr_doc_1",
+      "actorRole": "doctor",
+      "actorName": "Dr. Priya Sharma",
+      "action": "STAFF_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_doc_1",
+      "hospitalId": "hosp_1",
+      "id": "aud_1794679681361_w8drt",
+      "createdAt": "2026-11-14T18:08:01.361Z"
+    },
+    {
+      "actorUserId": "usr_admin_1",
+      "actorRole": "admin",
+      "actorName": "Platform Administrator",
+      "action": "ADMIN_VIEWED_SCREENING_MONITOR",
+      "targetType": "screening_list",
+      "targetId": "all",
+      "justification": "Platform urgent case oversight",
+      "id": "aud_1794678073722_251px",
+      "createdAt": "2026-11-14T17:41:13.722Z"
+    },
+    {
+      "actorUserId": "usr_admin_1",
+      "actorRole": "admin",
+      "actorName": "Platform Administrator",
+      "action": "STAFF_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_admin_1",
+      "id": "aud_1794678064847_twcrs",
+      "createdAt": "2026-11-14T17:41:04.847Z"
+    },
+    {
+      "actorUserId": "usr_mgr_1",
+      "actorRole": "hospital_manager",
+      "actorName": "Suresh Menon (Mgr)",
+      "action": "STAFF_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_mgr_1",
+      "hospitalId": "hosp_1",
+      "id": "aud_1794678021405_cfzye",
+      "createdAt": "2026-11-14T17:40:21.405Z"
+    },
+    {
+      "actorUserId": "usr_pat_1794677093286_h7nkny",
+      "actorRole": "patient",
+      "actorName": "m",
+      "action": "PATIENT_OTP_LOGIN",
+      "targetType": "patient",
+      "targetId": "pat_1794677093286_zy9pxp",
+      "metadata": {
+        "mobileNormalized": "+919490484091"
+      },
+      "id": "aud_1794677093287_sl44p",
+      "createdAt": "2026-11-14T17:24:53.287Z"
+    },
+    {
+      "actorUserId": "usr_admin_1",
+      "actorRole": "admin",
+      "actorName": "Platform Administrator",
+      "action": "STAFF_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_admin_1",
+      "id": "aud_1794647770549_1f99j",
+      "createdAt": "2026-11-14T09:16:10.549Z"
+    },
+    {
+      "actorUserId": "usr_pat_1794647769400_1zi3w4",
+      "actorRole": "patient",
+      "actorName": "Patient (0116)",
+      "action": "PATIENT_OTP_LOGIN",
+      "targetType": "patient",
+      "targetId": "pat_1794647769400_vvop26",
+      "metadata": {
+        "mobileNormalized": "+919876500116"
+      },
+      "id": "aud_1794647769401_lplmv",
+      "createdAt": "2026-11-14T09:16:09.401Z"
+    },
+    {
+      "actorUserId": "usr_pat_1794647700647_w7b0bp",
+      "actorRole": "patient",
+      "actorName": "Patient (0115)",
+      "action": "PATIENT_OTP_LOGIN",
+      "targetType": "patient",
+      "targetId": "pat_1794647700647_my79pj",
+      "metadata": {
+        "mobileNormalized": "+919876500115"
+      },
+      "id": "aud_1794647700648_7ibbk",
+      "createdAt": "2026-11-14T09:15:00.648Z"
+    },
+    {
+      "actorUserId": "usr_pat_1794647637681_frfza1",
+      "actorRole": "patient",
+      "actorName": "Patient (0114)",
+      "action": "PATIENT_OTP_LOGIN",
+      "targetType": "patient",
+      "targetId": "pat_1794647637681_pfdbat",
+      "metadata": {
+        "mobileNormalized": "+919876500114"
+      },
+      "id": "aud_1794647637681_qvxjj",
+      "createdAt": "2026-11-14T09:13:57.681Z"
+    },
+    {
+      "actorUserId": "usr_pat_1794647629735_d3xgf0",
+      "actorRole": "patient",
+      "actorName": "Voice OTP Patient",
+      "action": "PATIENT_OTP_LOGIN",
+      "targetType": "patient",
+      "targetId": "pat_1794647629735_pefr84",
+      "metadata": {
+        "mobileNormalized": "+919876500113"
+      },
+      "id": "aud_1794647629735_mkppj",
+      "createdAt": "2026-11-14T09:13:49.735Z"
+    },
+    {
+      "actorUserId": "usr_pat_1794647565001_3a3l4t",
+      "actorRole": "patient",
+      "actorName": "Voice OTP Test Patient",
+      "action": "PATIENT_OTP_LOGIN",
+      "targetType": "patient",
+      "targetId": "pat_1794647565001_u9tsil",
+      "metadata": {
+        "mobileNormalized": "+919876500112"
+      },
+      "id": "aud_1794647565002_k5ar1",
+      "createdAt": "2026-11-14T09:12:45.002Z"
+    },
+    {
+      "actorUserId": "usr_pat_1794646348676_yuwe20",
+      "actorRole": "patient",
+      "actorName": "Patient (3210)",
+      "action": "PATIENT_OTP_LOGIN",
+      "targetType": "patient",
+      "targetId": "pat_1794646348676_bmue1w",
+      "id": "aud_1794646348677_hdxya",
+      "createdAt": "2026-11-14T08:52:28.677Z"
+    },
+    {
+      "actorUserId": "usr_mgr_1",
+      "actorRole": "hospital_manager",
+      "actorName": "Suresh Menon (Mgr)",
+      "action": "STAFF_LOGIN",
+      "targetType": "user",
+      "targetId": "usr_mgr_1",
+      "hospitalId": "hosp_1",
+      "id": "aud_1794645852361_9z6v8",
+      "createdAt": "2026-11-14T08:44:12.361Z"
+    },
+    {
+      "actorUserId": "usr_pat_1794645852175_speln2",
+      "actorRole": "patient",
+      "actorName": "Test Patient",
+      "action": "PATIENT_OTP_LOGIN",
+      "targetType": "patient",
+      "targetId": "pat_1794645852175_vfuumv",
+      "id": "aud_1794645852176_mmqg0",
+      "createdAt": "2026-11-14T08:44:12.176Z"
+    },
+    {
+      "id": "aud_init_1",
+      "actorUserId": "usr_admin_1",
+      "actorRole": "admin",
+      "actorName": "Platform Administrator",
+      "action": "PLATFORM_INITIALIZED",
+      "targetType": "system",
+      "targetId": "aarogya_drishti",
+      "justification": "Initial registered hospital and verified specialist baseline setup",
+      "createdAt": "2026-11-14T08:43:55.572Z"
+    }
+  ],
+  "settings": {
+    "consentText": "I understand that Aarogya Drishti provides an AI-assisted preliminary oral health screening for educational awareness and clinical triage only. This screening does not constitute a medical diagnosis, does not confirm or rule out oral cancer, and does not replace an in-person clinical examination or biopsy by a qualified healthcare professional. I consent to the secure storage and processing of my questionnaire responses and uploaded oral photographs by the platform and any doctor I choose to consult.",
+    "requireConsentBeforeScreening": true,
+    "enableUrgentRequests": true,
+    "enableVideoConsultations": true,
+    "maxImagesPerScreening": 3,
+    "otpExpiryMinutes": 5,
+    "updatedAt": "2026-11-16T16:08:57.188Z"
+  },
+  "ashaWorkers": [],
+  "ashaFollowups": [],
+  "ashaWorkerRequests": [
+    {
+      "id": "asha_req_1794814534186_wboif8",
+      "patientId": "pat_1794811548401_zwxc4a",
+      "village": "Baski",
+      "mandal": "araku valley",
+      "status": "pending",
+      "hospitalId": "hosp_1",
+      "createdAt": "2026-11-16T07:35:34.186Z",
+      "updatedAt": "2026-11-16T07:35:34.186Z"
+    }
+  ]
+}
